@@ -1,6 +1,13 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://source.unsplash.com/1600x900/?city");
+    background-size: cover;
+}
+
+
 .card {
     background-color: black;
-    opacity: 75%;
+    opacity: 85%;
     width: 35%;
     min-width: 300px;
     color: white;
@@ -13,12 +20,75 @@
     padding: 15px;
 }
 
+.searchContainer {
+    display: flex;
+    margin: 8px;
+}
+
 .search-bar {
-    height: 24px;
+    height: 28px;
     color: white;
     padding-left: 10px;
-    border-radius: 12px;
+    border-radius: 14.5px;
     border: none;
     width: calc(100% - 40px);
     background-color: rgb(59, 59, 59);
+}
+
+button.searchButton {
+    height: 31px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    width: 31px;
+    align-content: center;
+    display: flex;
+    border-radius: 15.5px;
+    border: none;
+    margin-left: 8px;
+    align-items: center;
+}
+
+.flag {
+    height: 64px;
+    width: 64px;
+    align-content:flex-end;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.name {
+    font-size: 36px;
+}
+
+img.icon {
+    height: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bottom-container {
+    display: flex;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    margin: 5px 0;
+    margin-bottom: 8px;
+}
+
+.wind-speed {
+    margin: 5px 0;
+}
+
+.aqi {
+    margin: 5px 0;
+    margin-top: auto;
+}
+
+.dataContainer {
+    display: flex;
+    
 }
