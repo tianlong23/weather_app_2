@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer> </script>
+    <script src="script.js"> </script>
 </head>
 <body>
     <div class="card">
         <div class="searchContainer">
-            <input class="search-bar" value="Search">
-            <button class="searchButton" ><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"></path></svg></button>
+            <input class="search-bar" placeholder="Search">
+            <button id="searchBttn" class="searchButton" ><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"></path></svg></button>
         </div>
-            <div class="dataContainer">
+            <div class="dataContainer" id="hideData">
                 <div class="data">
                     <div class="name">Weather in Denver</div>
                     <div class="temp">Temperature: 5° C</div>
                     <div class="description">Cloudy</div>
-                    <img src="https://www.weatherbit.io/static/img/icons/t01d.png" class="icon">
+                    <img src="https://developer.accuweather.com/sites/default/files/06-s.png" class="icon">
                 </div>
                 <img class="flag" src="https://flagsapi.com/US/flat/64.png">
             </div>
     </div>
+    <script src="script.js"> </script>
 </body>
 </html>
